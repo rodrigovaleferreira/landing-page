@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Um bot que ira moderar o seu servidor do discord!">
+    <!-- descrição de quando pesquisa no google, como se fosse um subtitulo -->
+    <title>LandingPage - modere a pagina do seu discord</title>
+        <!-- cria esse rel, type como padrao mais o href com o nome da pasta, para fazer o link do html com -->
+    <link rel="stylesheet" type="text/css" href="main.css"
 </head>
+
 <body>
-    
+    <!-- cabeçalho-->
+    <header class="cabecalho">
+            <!-- comando alt é pra caso a imagem não carregue aparecer a mensagem.-->
+
+        <img class="imagem-cabecalho" src="imgs/logo 1.svg" alt="logo da Ballerini">
+         <!-- navegação-->
+        <nav class="navegacao-cabecalho">
+             <!-- <a> é pra links ao inves de botao, acessar pagina por 'palavras'>-->
+            <a class="cabecalho-menu" href="https://www.google.com/">Comunidade</a> 
+            <a class="cabecalho-menu">Tutorial</a>
+            <a class="cabecalho-menu">Open source</a>
+            <a class="cabecalho-menu">Comandos</a>
+        </nav>
+    </header>
+    <!-- corpo principal-->
+    <main class="conteudo">
+            <!-- section é pra separar a pagina em partes primaria e secundaria-->
+
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                    <!-- h1 é usado pra titulo, h2 subtitulo e assim vai ate o h6...-->
+
+                <h1 class="conteudo-principal-escrito-titulo">Balle Bot</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Deixe a sua comunidade segura de um jeito fácil</h2>
+                <button class="conteudo-principal-escrito-botao">Me adicione</button>
+            </div>
+            <img class="conteudo-principal-imagem"src="imgs/Group 4.svg" alt="Robô da balle bot">
+
+        </section >
+            
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que ela faz por você?</h3>
+                <!-- <strong> é usado pra deixar o que está dentro dele em negrito.-->
+            <p class="conteudo-secundario-paragrafo">1. Cria um <strong>sistema de verificação capcha </strong>para novos membros garantirem que não são robôs</p>
+            <p class="conteudo-secundario-paragrafo">2. Possui um <strong>sistema de banimento automático </strong>para links suspeitos que forem enviados na comunidade</p>
+            <p class="conteudo-secundario-paragrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+        </section>
+    </main>
+ <!-- rodapé-->
+    <footer class="rodape">
+        <img class="rodape-imagem"src="imgs/BALLERINI.svg" alt="Logo da ballerini">
+    </footer>
+
 </body>
+
 </html>
